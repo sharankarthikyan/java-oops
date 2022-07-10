@@ -1,15 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Person p1 = new Person();
-        p1.setFirstName("Sharan");
-        p1.setLastName("K");
-        p1.setAge((byte) 16);
-        System.out.println(p1.getFullName());
-        System.out.println(p1.isTeen());
-
-        Person p2 = new Person();
-        System.out.println(p2.getFullName());
-        System.out.println(p2.isTeen());
+        Account acc1 = new Account("12345", 10000, "Sharan", "sk@gmail.com", 1234567890);
+        acc1.withdraw(1000);
+        acc1.withdraw(5000);
+        acc1.deposit(100);
+        acc1.withdraw(10000);
     }
 }

@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c48e8-9334-4a97-97b5-bb620d809642" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ceiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dimensions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Outlander.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Motherboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resolution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

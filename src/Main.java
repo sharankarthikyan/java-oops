@@ -1,27 +1,23 @@
 /*
- * We have used composition in this PC example.
+ * We have used composition in this Bedroom example.
  * Advantage of composition is we can create object of for any class without inheriting it. It is achieved during run-time.
  */
 public class Main {
     public static void main(String[] args) {
+        Wall wall1 = new Wall("West");
+        Wall wall2 = new Wall("East");
+        Wall wall3 = new Wall("South");
+        Wall wall4 = new Wall("North");
 
-        Dimensions dimensions = new Dimensions(20, 20, 5);
-        Case theCase = new Case("220B", "Dell", "240W", dimensions);
-        Monitor monitor = new Monitor("27 inch Beast", "Acer", 27, new Resolution(2540, 1400));
-        Motherboard motherboard = new Motherboard("BJ-200", "Asus", 4, 4, "v2.44");
+        Ceiling ceiling = new Ceiling(12, 55);
 
-        PC thePC = new PC(theCase, monitor, motherboard);
+        Bed bed = new Bed("Modern", 4, 3, 2, 1);
 
-        // We have commented the below lines. Because, if user has direct access to the core, then some issue will happen.
-        // Hence, we are commenting all the get methods in PC and giving an alternate solution.
-        /*
-        thePC.getMonitor().drawPixelAt(10, 10, "Red");
-        // Here above, if we use inheritance, then we can call the drawPixelAt by thePC.drawPixelAt(). But, we used composition.
-        thePC.getMotherboard().loadProgram("Windows 1.0");
-        // Here above, if we use inheritance, then we can call the loadProgram by thePC.loadProgram(). But, we used composition.
-        thePC.getTheCase().pressPowerButton();
-        */
+        Lamp lamp = new Lamp("Classic", false, 75);
 
-        thePC.powerUp();
+        Bedroom bedRoom = new Bedroom("Tims", wall1, wall2, wall3, wall4, ceiling, bed, lamp);
+        bedRoom.makeBed();
+
+        bedRoom.getLamp().turnOn();
     }
 }

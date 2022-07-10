@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        SimpleCalculator cal = new SimpleCalculator();
-        cal.setFirstNumber(10);
-        cal.setSecondNumber(10);
-        System.out.println(cal.getAdditionResult());
-        System.out.println(cal.getSubtractionResult());
-        System.out.println(cal.getMultiplicationResult());
-        System.out.println(cal.getDivisionResult());
+        Person p1 = new Person();
+        p1.setFirstName("Sharan");
+        p1.setLastName("K");
+        p1.setAge((byte) 16);
+        System.out.println(p1.getFullName());
+        System.out.println(p1.isTeen());
+
+        Person p2 = new Person();
+        System.out.println(p2.getFullName());
+        System.out.println(p2.isTeen());
     }
 }
